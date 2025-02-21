@@ -553,3 +553,51 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.my-\[30px\] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
+}
+
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.text-\[70px\] {
+  font-size: 70px;
+}
+
+header {
+  background-image: url(Rectangle\ \(5\).png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
